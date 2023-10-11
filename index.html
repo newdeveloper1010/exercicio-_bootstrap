@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+    <style>
+        .card-img-overlay{
+            background-color: rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1>Projeto Bootstrap</h1>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100" src="lib/imagem/tree-736885_1280.jpg" >
+                <div class="carousel-caption">
+                <h2> first slide</h2>
+                </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="lib/imagem/railroad-163518_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2> second slide</h2>
+                        </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="lib/imagem/interior-1961070_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2> third slide</h2>
+                        </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+           <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+    <header>
+        <h1>Bootstrap - Cards</h1>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card text-bg-dark">
+                        <header class="card-header">
+                            Desenvolvimento web
+                        </header>
+                        <img src="lib/imagem/tree-736885_1280.jpg" />
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Cards do Bootstrap</h4>
+                            <h5 class="card-subtitle"> Subtitulo do Card</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odio sunt voluptatibus facere hic doloremque molestias expedita qui, culpa perferendis dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>10/08/2023 as 19:00 </time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="card text-bg-dark">
+                        <header class="card-header">
+                            Desenvolvimento web
+                        </header>
+                        <img src="lib/imagem/railroad-163518_1280.jpg" />
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Cards do Bootstrap</h4>
+                            <h5 class="card-subtitle"> Subtitulo do Card</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odio sunt voluptatibus facere hic doloremque molestias expedita qui, culpa perferendis dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>10/08/2023 as 19:00 </time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="card text-bg-dark">
+                        <header class="card-header">
+                            Desenvolvimento web
+                        </header>
+                        <img src="lib/imagem/interior-1961070_1280.jpg" />
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Cards do Bootstrap</h4>
+                            <h5 class="card-subtitle"> Subtitulo do Card</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odio sunt voluptatibus facere hic doloremque molestias expedita qui, culpa perferendis dolor Lorem ipsum dolor sit amet consectetur adipisicing elit.,
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>10/08/2023 as 19:00 </time>
+                        </footer>
+                    <article>
+                </div>
+            </div>
+        </div>
+          
+            
+    </header>
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
